@@ -1,0 +1,29 @@
+seletor {
+  /* Box Model */
+  margin: valor;
+  padding: valor;
+
+  /* Border */
+  border: valor;
+  border-radius: valor;
+
+  /* Background */
+  background-color: valor;
+  color: valor;
+  /* ... outras propriedades relacionadas ao background */
+
+  /* Tipografia (Font) */
+  font-family: valor;
+  font-size: valor;
+  font-weight: valor;
+  /* ... outras propriedades relacionadas à tipografia */
+
+  /* Posicionamento e Layout */
+  position: valor;
+  display: valor;
+  top: valor;
+  right: valor;
+  bottom: valor;
+  left: valor;
+  /* ... outras propriedades relacionadas ao posicionamento e layout */
+}

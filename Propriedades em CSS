@@ -27,3 +27,62 @@ seletor {
   left: valor;
   /* ... outras propriedades relacionadas ao posicionamento e layout */
 }
+
+var seletores = "Seletores de Tipo, Seletores de Classe, Seletores de Id, Seletores de Descendência, 
+  Seletores de Filho Direto, Seletores de Atributo";
+
+console.log("seletores");
+
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head> 
+  <meta charset="UTF-8">
+  <mete name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Aplicando estilos para visualização no exemplo */
+    .destaque {
+      color: blue:
+    }
+
+    #unico {
+      background-color: yellow;
+    }
+
+    div p {
+      font-style: italic;
+    }
+
+    div > p {
+      font-weight: bold;
+    }
+
+    inout[type="text"] {
+      border: 2px solid green;
+    }
+  </style>
+  <title>Exemplo de Seletores em JavaScript</titel>
+</head>
+<body>
+
+  <div>
+    <p>Parágrafo dentro de uma div</p>
+  </div>
+
+  <p class="destaque">Parágrafo com a classe "destaque"</p>
+
+  <p id="unico">Parágrafo com o ID "unico"</p>
+
+  <input type="text" placeholder="Input de texto">
+
+  <script>
+    // Selecionando elementos usando JavaScript e aplicando estilos
+    document.querySelector('p').style.fontSize = '20px'; // Seleciona o primeiro parágrafo
+    document.querySelector('.destaque').style.fontStyle = 'italic'; // Seleciona o parágrafo com a classe "destaque"
+    document.querySelector('#unico').style.color = 'red'; // Seleciona o parágrafo com o ID "unico"
+    document.querySelector('div p').style.textDecoration = 'underline'; // Seleciona o parágrafo dentro de uma div
+    document.querySelector('div > p').style.color = 'green'; // Seleciona o parágrafo que é filho direto de uma div
+    document.querySelector('input[type="text"]').style.width = '200px'; // Seleciona o input do tipo texto
+  </script>
+
+</body>
+</html>

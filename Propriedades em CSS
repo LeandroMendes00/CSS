@@ -1,3 +1,7 @@
+/**** Utilização EXTERNA ****/
+/* <link rel="stylesheet" type="text/css" href="?"> */ 
+/* <div class="?">*/
+
 seletor {
   /* Box Model */
   margin: valor;

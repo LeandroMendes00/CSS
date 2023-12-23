@@ -41,11 +41,11 @@ console.log("seletores");
 <html lang="pt-Br">
 <head> 
   <meta charset="UTF-8">
-  <mete name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /* Aplicando estilos para visualização no exemplo */
     .destaque {
-      color: blue:
+      color: blue;
     }
 
     #unico {
@@ -60,11 +60,11 @@ console.log("seletores");
       font-weight: bold;
     }
 
-    inout[type="text"] {
+    input[type="text"] {
       border: 2px solid green;
     }
   </style>
-  <title>Exemplo de Seletores em JavaScript</titel>
+  <title>Exemplo de Seletores em JavaScript</title>
 </head>
 <body>
 

@@ -41,6 +41,35 @@ Seletores de Atributos {
       /* Pesquisar  */
 }
 
+Pseudo-classes/elements {
+
+}
+
+Especificidade CSS {
+  /*
+  ID   Classes,   atributos e pseudo-classes,   Elementos e pseudo-elementos
+  1    0                                        0
+  0    1                                        0
+  */
+
+  #p {
+    background: #red;
+  }
+  .p {
+    background: #red;
+  }
+}
+
+/** Heranças e propriedades que são passadas para elementos filhos **/
+
+/** Unidades de medidas **/
+
+/** Media queries e breakpoints **/
+
+/** Flexbox **/ 
+
+/** Grid  **/
+
 <!DOCTYPE html>
 <html lang="pt-Br">
 <head> 

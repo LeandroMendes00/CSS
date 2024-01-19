@@ -37,6 +37,10 @@ var seletores = "Seletores de Tipo, Seletores de Classe, Seletores de Id, Seleto
 
 console.log("seletores");
 
+Seletores de Atributos {
+      /* Pesquisar  */
+}
+
 <!DOCTYPE html>
 <html lang="pt-Br">
 <head> 

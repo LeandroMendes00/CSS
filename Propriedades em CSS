@@ -62,7 +62,43 @@ Especificidade CSS {
 
 /** Heranças e propriedades que são passadas para elementos filhos **/
 
+    Herança em Cascading Style Sheets (CSS):
+      /* Estilo para todos os parágrafos */
+        p {
+          color: blue;
+        }
+        
+        /* Estilo específico para parágrafos dentro de uma div com a classe 'destaque' */
+        .destaque p {
+          font-weight: bold;
+        }
+
+    Herança em Programação Orientada a Objetos (POO):
+        // Classe pai
+        class Animal {
+          void comer() {
+            System.out.println("O animal está comendo.");
+          }
+        }
+        
+        // Classe filha que herda de Animal
+        class Cachorro extends Animal {
+          void latir() {
+            System.out.println("O cachorro está latindo.");
+          }
+        }
+
 /** Unidades de medidas **/
+
+    Unidades Relativas:
+
+    Unidades Absolutas:
+
+    Unidades de Tamanho Relativo a Tela:
+
+    Porcetagens(%):
+
+    Unidades de Texto:
 
 /** Media queries e breakpoints **/
 

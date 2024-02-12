@@ -2,6 +2,8 @@
 /* <link rel="stylesheet" type="text/css" href="?"> */ 
 /* <div class="?">*/
 
+/* SELETOR */
+
 seletor {
   /* Box Model */
   margin: valor;
@@ -33,14 +35,34 @@ seletor {
 }
 
 var seletores = "Seletores de Tipo, Seletores de Classe, Seletores de Id, Seletores de Descendência, 
-  Seletores de Filho Direto, Seletores de Atributo";
+  Seletores de Filho Direto, Seletores de Atributo, Seletor Universal, Seletor de Elemento";
 
 console.log("seletores");
+/*------------------------*/
 
-Seletores de Atributos {
-      /* Pesquisar  */
-}
+/* SELETORES DE ATRIBUTOS */
 
+  function SeletoresdeAtributos () {
+      var seletores = {
+          'Seletor de atributo exato' : 'Seleciona elementos que possuem um atributo com um valor exato.',
+          'Seletor de atributo começando com' : 'Seleciona elementos que possuem um atributo cuja o valor começa com um determinado texto',
+          'Seletor de atributo terminando com' : 'Seleciona elementos que possuem um atributo cuja o valor termina com um determinado texto',
+          'seletor de atributo contendo' : 'Seleciona elementos que possuem um atributo que contem um determinado valor'
+      };
+  
+      function mostrarSeletores() {
+          console.log("Seletores de Atributos:\n");
+          for (var selector in  seletores) {
+              console.log(selector + ": " + seletores[selector] + "\n");
+          }
+      }
+  
+      mostrarSeletores();
+  };
+  SeletoresdeAtributos();
+/*-------------------------*/
+
+/* PSEUDO */
 Pseudo-classes/elements {
 
 }
@@ -59,8 +81,9 @@ Especificidade CSS {
     background: #red;
   }
 }
+/*----------*/
 
-/** Heranças e propriedades que são passadas para elementos filhos **/
+/* Heranças e propriedades que são passadas para elementos filhos */
 
     Herança em Cascading Style Sheets (CSS):
       /* Estilo para todos os parágrafos */
@@ -87,8 +110,9 @@ Especificidade CSS {
             System.out.println("O cachorro está latindo.");
           }
         }
+/*-----------------------*/
 
-/** Unidades de medidas **/
+/* Unidades de medidas */
 
     Unidades Relativas:
 
@@ -99,6 +123,7 @@ Especificidade CSS {
     Porcetagens(%):
 
     Unidades de Texto:
+/*---------------------*/
 
 /** Media queries e breakpoints **/
 

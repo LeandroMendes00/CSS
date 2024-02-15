@@ -114,15 +114,48 @@ Especificidade CSS {
 
 /* Unidades de medidas */
 
-    Unidades Relativas:
+  Unidades Relativas: Exemplo de uso de "em" em CSS
 
-    Unidades Absolutas:
+    .elemento-pai {
+        font-size: 16px;
+    }
+    
+    .elemento-filho {
+        font-size: 1.5em; /* Isso será 24px (1.5 * 16px) */
+        width: 20em;     /* Isso será 320px (20 * 16px) */
+    }
 
-    Unidades de Tamanho Relativo a Tela:
+  Unidades Absolutas:
+                (Fixas e não dependem de outros valores)
+    px (píxels), pt (pontos), in (polegadas), cm (centímetros), mm (milímetros), pc (picas)
 
-    Porcetagens(%):
+  Unidades de Tamanho Relativo a Tela:
+                (Layouts Responsivos)
+    vw (Viewport Width), vh (Viewport Height),  vmin, vmax
+                
+  Porcetagens(%):
+                (Definir valores relativos a algum valor de referência)
+    Largura e Altura
+      .filho {
+        width: 50%; /* O filho terá metade da largura do seu contêiner pai */
+        height: 75%; /* O filho terá 75% da altura do seu contêiner pai */
+        }
+    Margens   
+      .filho {
+        margin-left: 10%; /* A margem esquerda do filho será 10% da largura do seu contêiner pai */
+    }
+    Padding 
+      .filho {
+        padding-top: 5%; /* O preenchimento superior do filho será 5% da sua própria largura */
+    }
+    Posicionamento
+      .filho {
+        position: absolute;
+        top: 25%; /* O filho será posicionado a 25% da altura do seu contêiner pai */
+        left: 10%; /* O filho será posicionado a 10% da largura do seu contêiner pai */
+    }
 
-    Unidades de Texto:
+  Unidades de Texto:
 /*---------------------*/
 
 /** Media queries e breakpoints **/
